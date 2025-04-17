@@ -2,7 +2,7 @@
 using namespace std;
 
 int arr[20], B[20]; // Array utama dan array bantu
-int n; 
+int n; // Jumlah elemen dalam array
 
     void mergersort(int low,int high)
     {
@@ -33,7 +33,10 @@ int n;
                 B[k] = arr[j]; //step 4.d.i.3
                 j++;           //step 4.d.i.4
             }
+            k++; //step 4.d.ii
         }
+
+        while (j <= high) // step 4 e
 
 
     }
