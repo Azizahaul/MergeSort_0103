@@ -5,26 +5,6 @@ int arr[20], B[20]; // Array utama dan array bantu
 int n;
 
 void input(){
-    while(true){
-        cout << "Masukkan Panjang Element Array: ";
-        cin >> n;
-        if(n<= 20){
-            break;
-        } else {
-            cout << 
-        }
-        
-    }
-
-
-
-
-
-
-
-
-
-
 
     void mergersort(int low,int high)
     {
@@ -44,6 +24,7 @@ void input(){
         j = mid + 1; // step 4b
         k = low; // step 4c
         
+        while (i <= mid  && j <= high) // step 4d
 
 
     }
