@@ -26,7 +26,8 @@ void input(){
 
 
 
-    void mergersort(int low,int high){
+    void mergersort(int low,int high)
+    {
 
         if (low >= high)
         {
@@ -34,5 +35,11 @@ void input(){
             return; //step 1a
         }
         int mid = (low + high) / 2; //step 2
+
+        mergesort(low, mid); //step 3a
+        mergesort(mid + 1, high);// step 3b
+        
+
+
     }
 }
