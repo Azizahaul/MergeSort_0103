@@ -33,5 +33,6 @@ void input(){
             //step 1
             return; //step 1a
         }
+        int mid = (low + high) / 2; //step 2
     }
 }
