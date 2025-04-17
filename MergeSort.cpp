@@ -8,6 +8,30 @@ void input(){
     while(true){
         cout << "Masukkan Panjang Element Array: ";
         cin >> n;
+        if(n<= 20){
+            break;
+        } else {
+            cout << 
+        }
         
+    }
+
+
+
+
+
+
+
+
+
+
+
+    void mergersort(int low,int high){
+
+        if (low >= high)
+        {
+            //step 1
+            return; //step 1a
+        }
     }
 }
