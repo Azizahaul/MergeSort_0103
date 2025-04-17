@@ -29,6 +29,10 @@ int n;
                 i++;           // step 4.d.i.2
 
             }
+            else{
+                B[k] = arr[j]; //step 4.d.i.3
+                j++;           //step 4.d.i.4
+            }
         }
 
 
